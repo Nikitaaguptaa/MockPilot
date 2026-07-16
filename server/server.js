@@ -6,7 +6,7 @@ const connectDB = require('./db');
 const app = express();
 connectDB();
 
-app.use(cors({ origin: 'http://localhost:5173', credentials: true }));
+app.use(cors({ origin: 'https://mockpilot-frontend.onrender.com', credentials: true }));
 app.use(express.json());
 
 app.use('/api/auth', require('./routes/auth'));

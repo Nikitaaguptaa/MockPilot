@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import axios from 'axios'
+import api from '../../api'
 import { useAuth } from '../../hooks/useAuth'
 import Button from '../../components/ui/Button'
 import FormField from '../../components/ui/FormField'
@@ -20,7 +20,7 @@ export default function Signup() {
     setError('')
     setLoading(true)
     try {
-      const { data } = await axios.post('/api/auth/signup', form)
+      const { data } = await api.post('/auth/signup', form)
       login(data.token, data.user)
       navigate('/dashboard')
     } catch (err) {
