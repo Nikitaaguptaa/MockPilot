@@ -48,7 +48,7 @@ Return a JSON object with:
 Return ONLY the JSON, no markdown, no backticks.`;
 
     const response = await ai.models.generateContent({
-      model: gemini-3.5-flash,
+      model: 'gemini-3.5-flash',
       contents: prompt,
     });
 
