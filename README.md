@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 MockPilot — AI Mock Interview Platform
+# MockPilot — AI Mock Interview Platform
 
 **Ace your next interview with AI-powered mock interviews, resume analysis, and real-time feedback.**
 
@@ -15,11 +15,11 @@
 
 ---
 
-## 📖 About
+##  About
 
 MockPilot is a full-stack **MERN** application that helps job seekers prepare for interviews using **Google Gemini AI**. Upload your resume for instant ATS analysis, practice role-specific interview questions, and get real-time AI feedback on your answers — all tracked in a personal interview history dashboard.
 
-## ✨ Features
+##  Features
 
 - 🔐 **Secure Auth** — Signup/Login with JWT-based authentication
 - 📄 **Resume Analysis** — Upload PDF resume → AI-powered ATS score, strengths & improvement areas
@@ -30,11 +30,11 @@ MockPilot is a full-stack **MERN** application that helps job seekers prepare fo
 
 ## 🖥️ Live Demo
 
-👉 **[https://mockpilot-frontend.onrender.com](https://mockpilot-frontend.onrender.com)**
+**[https://mockpilot-frontend.onrender.com](https://mockpilot-frontend.onrender.com)**
 
-> ⏳ Note: Hosted on Render's free tier — the app may take 30–60 seconds to wake up on first load.
+> Note: Hosted on Render's free tier — the app may take 30–60 seconds to wake up on first load.
 
-## 🎨 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -45,7 +45,7 @@ MockPilot is a full-stack **MERN** application that helps job seekers prepare fo
 | **Auth** | JWT + bcrypt |
 | **Deployment** | Render |
 
-## 🚀 Getting Started (Local Setup)
+## Getting Started (Local Setup)
 
 ### Prerequisites
 - [Node.js](https://nodejs.org) (LTS version)
