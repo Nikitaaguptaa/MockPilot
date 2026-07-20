@@ -108,7 +108,7 @@ Return ONLY JSON, no markdown, no backticks.`;
     for (let attempt = 0; attempt < 2; attempt++) {
       try {
         const response = await ai.models.generateContent({
-          model: 'gemini-2.5-flash',
+          model: 'gemini-3.5-flash',
           contents: prompt,
         });
         evaluation = extractJSON(response.text);
